@@ -38,7 +38,7 @@
 		  					<span class='tag-icon'><i class="fa fa-tag"></i> &nbspTAGS :</span>
 		  					@foreach($blog->blogToTag as $tag_tba)
 		  					{{-- <span class='tag-box'>YELLOW</span> --}}
-			  					<span class='tag-box'>{{ $tag_tba->id }}</span>
+			  					<span class='tag-box'>{{ $tag_tba->tag_name }}</span>
 		  					@endforeach
 		  				</div>
 
